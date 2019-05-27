@@ -1,13 +1,5 @@
-use_frameworks!
-
 platform :ios, '8.0'
 
 target 'LYIM_Example' do
   pod 'LYIM', :path => '../'
-
-  target 'LYIM_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end
