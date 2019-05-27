@@ -1,16 +1,23 @@
 PODS:
+  - CocoaAsyncSocket (7.6.3)
   - LYIM (0.1.0)
 
 DEPENDENCIES:
+  - CocoaAsyncSocket
   - LYIM (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
 
 EXTERNAL SOURCES:
   LYIM:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   LYIM: 259b42df2cbb8b6088a49bae8b2419995ed1b620
 
-PODFILE CHECKSUM: a07811c5efc53177acb81b6cc2d6fbcb89cfefcf
+PODFILE CHECKSUM: 1b6d07986742fa4fa6807dafe639cb8b921af6d7
 
 COCOAPODS: 1.6.1

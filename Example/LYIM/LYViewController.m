@@ -7,6 +7,8 @@
 //
 
 #import "LYViewController.h"
+#import <LYIM/LYIMClient.h>
+#import <LYIM/LYIMServer.h>
 
 @interface LYViewController ()
 
@@ -17,7 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"");
+//    [[LYIMClient sharedManager]setClientHost:@"imdev.baihe.com" AndPort:@"6211"];
+//    [LYIMServer sharedManager]setAcceptPort:@""
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    [[LYIMClient sharedManager]sendMessage:@"nihao"];
 }
 
 - (void)didReceiveMemoryWarning
